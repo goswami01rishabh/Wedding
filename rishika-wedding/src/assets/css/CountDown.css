@@ -1,0 +1,24 @@
+.countdown-timer {
+    display: flex;
+    justify-content: center; /* center the row horizontally */
+    padding: 1rem;
+  }
+  
+  .countdown-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #fdf2e9;
+    padding: 0.5rem 0.75rem;  /* reduced padding */
+    border-radius: 6px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #821131;
+    font-weight: 500;
+    font-size: 0.9rem; /* smaller text */
+  }
+  
+  
+  .time {
+    white-space: nowrap; /* Prevents time from wrapping */
+  }
+  

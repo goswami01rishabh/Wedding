@@ -1,0 +1,22 @@
+.about-content {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+.about-container{
+  background-color: bisque;
+}
+.about-container h1{
+  margin-top: 5rem;
+  text-align: center;
+  color: black;
+}
+  
+
+  @media (max-width: 768px) {
+    .about-content {
+      font-size: 1rem;
+      padding: 1rem;
+    }
+  }
+  

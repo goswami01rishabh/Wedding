@@ -1,0 +1,116 @@
+/* Wrapper centers the form on the page */
+.registration-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: burlywood;
+}
+
+/* Centered, fixed-width form */
+.registration-form {
+  width: 50%;
+  background-color: lightgoldenrodyellow;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+/* Headings */
+.registration-wrapper h1 {
+  /* position: absolute; */
+  text-align: center;
+  top: 3rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #821131;
+}
+
+/* Label styling */
+.registration-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #333;
+}
+
+/* All input, select, and textarea fields */
+.registration-form input,
+.registration-form select,
+.registration-form textarea {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Submit button */
+.registration-form .button {
+  background-color: #821131;
+  color: #fff;
+  padding: 0.75rem;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registration-form .button:hover {
+  background-color: #a62044;
+}
+
+/* Phone field wrapper */
+.phone-field-wrapper {
+  display: flex;
+  align-items: stretch; /* Ensure both inputs align vertically */
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.country-code-select {
+  flex: 0 0 100px; /* Fixed width for country code */
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.phone-number-input {
+  flex: 1;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .registration-form {
+    width: 90%;
+    padding: 1.5rem;
+  }
+  @media screen and (max-width: 768px) {
+    .phone-field-wrapper {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .country-code-select,
+    .phone-number-input {
+      width: 100%;
+    }
+  }
+  
+}

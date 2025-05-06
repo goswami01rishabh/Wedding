@@ -1,0 +1,33 @@
+/* src/App.css */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+  }
+ /* src/assets/App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  background-color: burlywood;
+}
+
+/* General responsive utility */
+.page-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    padding: 1rem;
+  }
+}
+
+  
